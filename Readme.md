@@ -17,7 +17,7 @@ This repository contains the projects and tasks completed during my **1-Month We
 
 A responsive event booking website built with **React.js**, featuring event discovery, categories, search, event details, booking, booking confirmation, dark/light theme, and responsive design.
 
-![Event Booking Web Application](week 1 - Projects/Task 1 - Event handle/Event.png)
+![Event Booking Web Application](https://raw.githubusercontent.com/Coder-Abbas/SoftGrowTech-Internship/main/week%201%20-%20Projects/Task%201%20-%20Event%20handle/Event.png)
 
 ---
 
@@ -27,14 +27,14 @@ A responsive event booking website built with **React.js**, featuring event disc
 
 A responsive notes website built with **React.js**, featuring adding new notes, search filtering, and different colors for each note card.
 
-![Notes App](week 2 - project/Notes.png)
+![Notes App](https://raw.githubusercontent.com/Coder-Abbas/SoftGrowTech-Internship/main/week%202%20-%20project/Notes.png)
 
 
 ### Project 2 — Password Generator
 
 A password generator built with **React.js**, featuring password strength detection and random password generation with options for uppercase letters, lowercase letters, numbers, and symbols. Users can select the password length and copy the generated password.
 
-![Password Generator](week 2 - project/passwordgen.png)
+![Password Generator](https://raw.githubusercontent.com/Coder-Abbas/SoftGrowTech-Internship/main/week%202%20-%20project/passwordgen.png)
 
 ## 🎯 Skills Developed
 
