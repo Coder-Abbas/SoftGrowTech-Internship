@@ -17,18 +17,24 @@ This repository contains the projects and tasks completed during my **1-Month We
 
 A responsive event booking website built with **React.js**, featuring event discovery, categories, search, event details, booking, booking confirmation, dark/light theme, and responsive design.
 
+![Event Booking Web Application](week 1 - Projects\Task 1 - Event handle\Event.png)
 
-### Week 2 
+---
 
-### Project - 1 -> Notes App
+### Week 2
 
-A responsive notes website built with **React.js**, featuring adding new notes. and search filtering. and also filters with each card different colors. 
+### Project 1 — Notes App
+
+A responsive notes website built with **React.js**, featuring adding new notes, search filtering, and different colors for each note card.
+
+![Notes App](week 2 - project\Notes.png)
 
 
-### Project - 2 -> Password Generator
+### Project 2 — Password Generator
 
-I build password generator. which tell how strong. and generate random password with option Upper Lower Alphabets and number and symbols. you can select range of length and generate password then copy it. 
+A password generator built with **React.js**, featuring password strength detection and random password generation with options for uppercase letters, lowercase letters, numbers, and symbols. Users can select the password length and copy the generated password.
 
+![Password Generator](week 2 - project\passwordgen.png)
 
 ## 🎯 Skills Developed
 
