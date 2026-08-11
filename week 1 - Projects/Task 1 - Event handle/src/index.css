@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #080812;
+  --color-surface: #10101c;
+  --color-surface-2: #181827;
+  --color-border: #29263f;
+  --color-primary: #7c3aed;
+  --color-primary-2: #a855f7;
+  --color-text: #f8fafc;
+  --color-muted: #9898aa;
+  --font-display: "Sora", "Inter", sans-serif;
+  --font-body: "Inter", sans-serif;
+}
+
+
+/* ── Base styles ── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body);
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+/* Smooth transitions for all interactive elements */
+a, button, input, select, textarea {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Fade-in animation for page sections */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+section:nth-child(1) { animation-delay: 0s; }
+section:nth-child(2) { animation-delay: 0.1s; }
+section:nth-child(3) { animation-delay: 0.2s; }
+section:nth-child(4) { animation-delay: 0.3s; }
+section:nth-child(5) { animation-delay: 0.4s; }
+section:nth-child(6) { animation-delay: 0.5s; }
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease-in-out;
+}
+
+img[loading="lazy"] {
+  opacity: 0;
+}
+
+img[loading="lazy"]:not([src=""]) {
+  opacity: 1;
+}

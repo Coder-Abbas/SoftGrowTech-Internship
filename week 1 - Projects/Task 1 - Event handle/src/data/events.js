@@ -1,0 +1,205 @@
+// Static seed data for the app. Images are local assets.
+import img1 from "../assets/1.jpg"
+import img2 from "../assets/2.jpg"
+import img3 from "../assets/3.jpg"
+import img4 from "../assets/4.jpg"
+
+export const categories = [
+  { id: "all", label: "All" },
+  { id: "music", label: "Music" },
+  { id: "technology", label: "Technology" },
+  { id: "business", label: "Business" },
+  { id: "sports", label: "Sports" },
+  { id: "art", label: "Art" },
+  { id: "education", label: "Education" },
+]
+
+export const events = [
+  {
+    id: "summer-music-festival",
+    title: "Summer Music Festival",
+    category: "music",
+    date: "2026-08-20",
+    time: "06:00 PM - 11:00 PM",
+    location: "Lahore, Pakistan",
+    venue: "Fortress Stadium",
+    price: 40,
+    rating: 4.8,
+    reviews: 210,
+    image: img1,
+    description:
+      "Three stages, a dozen headline acts, and a night sky lit up in sound. Summer Music Festival brings together the country's best live acts for one unforgettable night in Lahore.",
+    schedule: [
+      { time: "06:00 PM - 07:00 PM", title: "Gates Open & Local Acts" },
+      { time: "07:00 PM - 09:00 PM", title: "Main Stage Headliners" },
+      { time: "09:00 PM - 10:30 PM", title: "Closing Set" },
+      { time: "10:30 PM - 11:00 PM", title: "Fireworks Finale" },
+    ],
+    capacity: 500,
+    organizer: "Fortress Live",
+  },
+  {
+    id: "ai-future-summit-2026",
+    title: "AI & Future Summit 2026",
+    category: "technology",
+    date: "2026-08-15",
+    time: "10:00 AM - 05:00 PM",
+    location: "Islamabad, Pakistan",
+    venue: "Islamabad Convention Center",
+    price: 50,
+    rating: 4.9,
+    reviews: 168,
+    image: img2,
+    description:
+      "Join industry experts, developers, and innovators at the AI & Future Summit 2026. Explore the future of Artificial Intelligence, machine learning, and emerging technologies transforming the world.",
+    schedule: [
+      { time: "10:00 AM - 11:00 AM", title: "Registration & Networking" },
+      { time: "11:00 AM - 12:00 PM", title: "Keynote: The Future of AI" },
+      { time: "01:00 PM - 02:00 PM", title: "Lunch Break" },
+      { time: "02:00 PM - 04:00 PM", title: "AI Workshop & Sessions" },
+      { time: "04:00 PM - 05:00 PM", title: "Closing Ceremony" },
+    ],
+    capacity: 250,
+    organizer: "TechWorld Inc.",
+  },
+  {
+    id: "entrepreneur-conference",
+    title: "Entrepreneur Conference",
+    category: "business",
+    date: "2026-09-10",
+    time: "09:00 AM - 04:00 PM",
+    location: "Karachi, Pakistan",
+    venue: "Karachi Expo Centre",
+    price: 30,
+    rating: 4.7,
+    reviews: 132,
+    image: img3,
+    description:
+      "A day built for founders. Hear from operators who've scaled real businesses in Pakistan, get tactical advice on fundraising and growth, and meet people building alongside you.",
+    schedule: [
+      { time: "09:00 AM - 10:00 AM", title: "Registration & Coffee" },
+      { time: "10:00 AM - 12:00 PM", title: "Founder Panels" },
+      { time: "01:00 PM - 02:00 PM", title: "Lunch & Networking" },
+      { time: "02:00 PM - 04:00 PM", title: "Pitch Sessions" },
+    ],
+    capacity: 300,
+    organizer: "Founders Hub",
+  },
+  {
+    id: "national-football-league",
+    title: "National Football League",
+    category: "sports",
+    date: "2026-09-25",
+    time: "05:00 PM - 08:00 PM",
+    location: "Islamabad, Pakistan",
+    venue: "Jinnah Sports Stadium",
+    price: 25,
+    rating: 4.6,
+    reviews: 98,
+    image: img4,
+    description:
+      "The season's biggest match night. Two rival clubs, one trophy on the line, and a stadium full of noise. Come early for the fan zone and pre-match entertainment.",
+    schedule: [
+      { time: "05:00 PM - 06:00 PM", title: "Gates Open & Fan Zone" },
+      { time: "06:00 PM - 07:45 PM", title: "Match Kickoff" },
+      { time: "07:45 PM - 08:00 PM", title: "Trophy Presentation" },
+    ],
+    capacity: 400,
+    organizer: "National Sports Board",
+  },
+  {
+    id: "art-design-exhibition",
+    title: "Art & Design Exhibition",
+    category: "art",
+    date: "2026-10-06",
+    time: "11:00 AM - 07:00 PM",
+    location: "Lahore, Pakistan",
+    venue: "Alhamra Arts Council",
+    price: 20,
+    rating: 4.8,
+    reviews: 74,
+    image: img1,
+    description:
+      "A curated showcase of contemporary work from emerging Pakistani artists — painting, sculpture, and mixed media — alongside live demonstrations and studio talks.",
+    schedule: [
+      { time: "11:00 AM - 01:00 PM", title: "Gallery Opens" },
+      { time: "01:00 PM - 02:00 PM", title: "Artist Talk" },
+      { time: "02:00 PM - 05:00 PM", title: "Live Demonstrations" },
+      { time: "05:00 PM - 07:00 PM", title: "Evening Reception" },
+    ],
+    capacity: 150,
+    organizer: "Alhamra Foundation",
+  },
+  {
+    id: "web-development-workshop",
+    title: "Web Development Workshop",
+    category: "education",
+    date: "2026-08-10",
+    time: "10:00 AM - 04:00 PM",
+    location: "Online Event",
+    venue: "Zoom",
+    price: 15,
+    rating: 4.9,
+    reviews: 205,
+    image: img2,
+    description:
+      "A hands-on, full-day workshop covering modern front-end fundamentals — React, component design, and building interfaces that ship. Bring a laptop and an idea.",
+    schedule: [
+      { time: "10:00 AM - 11:00 AM", title: "React Fundamentals" },
+      { time: "11:00 AM - 01:00 PM", title: "Building Components" },
+      { time: "02:00 PM - 03:30 PM", title: "Project Build" },
+      { time: "03:30 PM - 04:00 PM", title: "Q&A & Wrap-up" },
+    ],
+    capacity: 100,
+    organizer: "FrontEnd with Abbas",
+  },{
+    id: "web-development-workshop 2",
+    title: "Web Development Workshop",
+    category: "education",
+    date: "2026-08-10",
+    time: "10:00 AM - 04:00 PM",
+    location: "Online Event",
+    venue: "Zoom",
+    price: 5,
+    rating: 4.9,
+    reviews: 25,
+    image: img2,
+    description:
+      "A hands-on, full-day workshop covering modern front-end fundamentals — React, component design, and building interfaces that ship. Bring a laptop and an idea.",
+    schedule: [
+      { time: "10:00 AM - 11:00 AM", title: "React Fundamentals" },
+      { time: "11:00 AM - 01:00 PM", title: "Building Components" },
+      { time: "02:00 PM - 03:30 PM", title: "Project Build" },
+      { time: "03:30 PM - 04:00 PM", title: "Q&A & Wrap-up" },
+    ],
+    capacity: 100,
+    organizer: "FrontEnd with Abbas",
+  },
+  {
+    id: "national-football-league",
+    title: "National Football League",
+    category: "sports",
+    date: "2026-09-25",
+    time: "05:00 PM - 08:00 PM",
+    location: "Islamabad, Pakistan",
+    venue: "Jinnah Sports Stadium",
+    price: 25,
+    rating: 4.6,
+    reviews: 98,
+    image: img4,
+    description:
+      "The season's biggest match night. Two rival clubs, one trophy on the line, and a stadium full of noise. Come early for the fan zone and pre-match entertainment.",
+    schedule: [
+      { time: "05:00 PM - 06:00 PM", title: "Gates Open & Fan Zone" },
+      { time: "06:00 PM - 07:45 PM", title: "Match Kickoff" },
+      { time: "07:45 PM - 08:00 PM", title: "Trophy Presentation" },
+    ],
+    capacity: 400,
+    organizer: "National Sports Board",
+  },
+  
+]
+
+export function getEventById(id) {
+  return events.find((e) => e.id === id)
+}

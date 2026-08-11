@@ -1,0 +1,12 @@
+node_modules/
+.env
+dist/
+build/
+.vite/
+
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+week 1 - Projects/Task1-Event.mp4
