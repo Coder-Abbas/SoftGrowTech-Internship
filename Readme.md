@@ -36,6 +36,16 @@ A password generator built with **React.js**, featuring password strength detect
 
 ![Password Generator](https://raw.githubusercontent.com/Coder-Abbas/SoftGrowTech-Internship/main/week%202%20-%20project/passwordgen.png)
 
+
+### Week 3 - Final Mega Project 
+
+### Project 1 - Internship Management system Using React Dummy Data
+
+I made the internship management system using react. where i learned Role based access. i made admin panel and intern also with login pages and other pages. and learned protected routes and also learned Single Page Application. SPA.
+
+
+![IMS](https://raw.githubusercontent.com/Coder-Abbas/SoftGrowTech-Internship/main/Final%Project/IMS.png)
+
 ## 🎯 Skills Developed
 
 * React.js & JavaScript
